@@ -1,0 +1,19 @@
+@media (max-width:600px) {
+    header .border {
+        display: none;
+    }
+    header {
+        height: 150px;
+    }
+    .subheader .sologo {
+        display: none;
+    }
+    .subheader {
+        justify-content: center;
+        margin: 0;
+    }
+    .subheader .logo {
+        height: 100px;
+        width: 40%;
+    }
+}

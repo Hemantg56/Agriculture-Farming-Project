@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header Border START */
+
+header {
+    height: 200px;
+    /* background-color: lightblue; */
+}
+
+header .border {
+    height: 5px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+header .border .a {
+    height: inherit;
+    width: 33.33%;
+    /* border: 1px solid red; */
+}
+
+header .border .green {
+    background-color: #4BAF47;
+}
+
+header .border .yellow {
+    background-color: #C5CE38;
+}
+
+header .border .orange {
+    background-color: #EEC044;
+}
+
+
+/* Head Border END */
+
+
+/* SubHeader Border START */
+
+.subheader {
+    height: 150px;
+    width: 90%;
+    background-color: brown;
+    margin: 0 70px;
+    display: flex;
+}
+
+.subheader .logo {
+    height: 150px;
+    width: 17%;
+    background-color: lightcoral;
+    /* padding: 40px 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader .logo .img {
+    height: 60px;
+    width: 95%;
+    background-color: crimson;
+}
+
+.subheader .sologo {
+    height: 150px;
+    width: 83%;
+    background-color: lightsalmon;
+    display: flex;
+    padding: 25px 10px 25px 50px;
+}
+
+.subheader .sologo .ro {
+    height: 100px;
+    width: 25%;
+    border: 2px solid transparent;
+    border-right: 1px solid #E4E2D7;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.subheader .sologo .rot {
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    border: none;
+}
+
+.subheader .sologo .rot .main {
+    height: 35px;
+    width: 16%;
+    /* border: 2px solid; */
+    margin-left: 5px;
+    position: relative;
+}
+
+.subheader .sologo .rot .main .front {
+    height: 35px;
+    width: 100%;
+    background-color: #F8F7F0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    transition: .5s;
+}
+
+.subheader .sologo .rot .main .front i {
+    transform: rotateY(0deg);
+    transition: .5s;
+}
+
+.subheader .sologo .rot .main .front:hover i {
+    transform: rotateY(180deg);
+    color: #fff;
+}
+
+.subheader .sologo .rot .main .front:hover {
+    background-color: #4BAF47;
+}
+
+.subheader .sologo .ro .ll {
+    height: 100px;
+    width: 35%;
+    background-color: darkslateblue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2.1rem;
+    color: #4BAF47;
+    font-family: agrios-icons;
+}
+
+.subheader .sologo .ro .ll i {
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+
+.subheader .sologo .ro .text1 {
+    height: 100px;
+    width: 65%;
+    /* background-color: aqua; */
+    padding-top: 25px;
+    line-height: 23px;
+}
+
+.subheader .sologo .ro .text1 .ca {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #878680;
+}
+
+.subheader .sologo .ro .text1 h4 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subheader .sologo .ro .text1 .ha {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subheader .sologo .ro:hover i {
+    transform: rotateY(180deg);
+}
+
+.subheader .sologo .location {
+    border: none;
+}
+
+
+/* SubHeader Border END */
+
+
+/* Navigation Bar START */
+
+nav {
+    height: 50px;
+    background-color: #F8F7F0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav ul {
+    margin-left: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #878680;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+nav ul li a span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 200%;
+    left: -70px;
+    box-shadow: 0 0 10px gray;
+}
+
+nav ul li ul li {
+    display: block;
+    /* border: 1px solid; */
+    padding: 15px 100px 15px 10px;
+}
+
+nav ul li ul li:hover {
+    background-color: #4BAF47;
+}
+
+nav ul li ul li:hover a {
+    color: #fff;
+}
