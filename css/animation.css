@@ -1,0 +1,19 @@
+@keyframes hem {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: .05;
+    }
+}
+
+@keyframes dev {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2);
+        opacity: .05;
+    }
+}

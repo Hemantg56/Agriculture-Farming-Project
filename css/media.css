@@ -1,19 +1,352 @@
-@media (max-width:600px) {
-    header .border {
-        display: none;
-    }
-    header {
-        height: 150px;
-    }
-    .subheader .sologo {
-        display: none;
-    }
-    .subheader {
-        justify-content: center;
-        margin: 0;
-    }
-    .subheader .logo {
-        height: 100px;
-        width: 40%;
-    }
-}
+        @media (max-width:600px) {
+            header .border {
+                display: none;
+            }
+            .subheader .sologo {
+                display: none;
+                margin: 0 70px;
+            }
+            .subheader {
+                justify-content: center;
+                margin: 0;
+            }
+            .subheader .logo {
+                width: 60%;
+                padding: 15px;
+            }
+            nav {
+                padding: 5px 0;
+            }
+            nav .ua {
+                display: none;
+            }
+            nav .sy {
+                width: 100%;
+                border: transparent;
+            }
+            nav .sy .sa {
+                display: block;
+            }
+            .sec1 {
+                height: 100%;
+                background-size: 350% 600px;
+                background-position: center;
+            }
+            .sec1 .text {
+                margin: 80px 0 0 40px;
+            }
+            .sec1 .text .t1 {
+                font-size: 40px;
+            }
+            .sec1 .text .t1 .t3 {
+                margin-left: -15px;
+                font-size: 40px;
+            }
+            .sec1 .text .t1 .t3 img {
+                top: -13px;
+                left: 10px;
+                height: 50px;
+                width: 50px;
+            }
+            .sec1 .text .p1 {
+                font-size: 13px;
+            }
+            .sec1 .bu {
+                display: block;
+            }
+            .sec1 .text .leaf img {
+                margin-top: 20px;
+            }
+            .sec1 .text .gol {
+                display: none;
+            }
+            .sec1 .text .using .o1 {
+                width: 100%;
+                margin-bottom: 60px;
+            }
+            .sec1 .text .using .o1 .truk {
+                left: 160px;
+            }
+            .sec2 {
+                margin-top: 750px;
+                padding: 0 33px 0 35px;
+                margin-left: 5px;
+                background-size: 100% 100%;
+            }
+            .sec2 .ani {
+                width: 100%;
+                padding-left: 50px;
+            }
+            .sec2 .ani .img1 {
+                height: 360px;
+                width: 360px;
+            }
+            .sec2 .ani .plant {
+                width: 150px;
+                height: 150px;
+                top: 5px;
+                left: 180px;
+            }
+            .sec2 .ani .plant1 {
+                top: 10px;
+                left: -150px;
+            }
+            .sec2 .ani .dana {
+                transform: scale(.7);
+                top: 140px;
+                left: -100px;
+            }
+            .sec2 .our {
+                width: 100%;
+                margin-top: 60px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .sec2 .our .int {
+                font-size: 1.2rem;
+            }
+            .sec2 .our .tur {
+                font-size: 2rem;
+            }
+            .sec2 .our .lar {
+                font-size: 1.8rem;
+            }
+            .sec2 .our .tar {
+                font-size: 1.05rem;
+                padding-bottom: 10px;
+            }
+            .sec2 .our .veg {
+                margin-bottom: 250px;
+            }
+            .sec2 .our .gro {
+                width: 100%;
+            }
+            .sec2 .our .gro .ap {
+                width: 100%;
+            }
+            .sec2 .our .gro .ap .f3 {
+                padding-top: 20px;
+            }
+            .sec2 .our .gro .ap .f4 {
+                padding-top: 80px;
+            }
+            .sec2 .our .gro .its {
+                width: 100%;
+                padding-right: 200px;
+            }
+            .sec2 .our .gro .v {
+                padding-top: 50px;
+            }
+            .sec2 .our .not {
+                font-size: 1rem;
+            }
+            .sec2 .our .mor {
+                width: 40%;
+            }
+            .vie .pro {
+                padding: 0 30px;
+                margin-top: 0px;
+            }
+            .vie .pro .prob {
+                width: 100%;
+                margin-bottom: 120px;
+            }
+            .vie .pro .prob .fra {
+                height: 400px;
+            }
+            .vie .pro .prob .fra .prod {
+                padding: 60px 100px;
+            }
+            .vie .pro .prob .fra .gadi {
+                left: 170px;
+            }
+            .vie .pro .read {
+                margin-left: 213px;
+            }
+            .to {
+                height: 700px;
+                margin-top: 2350px;
+                background-position: center;
+                background-size: 250% 100%;
+                background-attachment: unset;
+            }
+            .to .grass {
+                background-repeat: no-repeat;
+                top: -70%;
+            }
+            .to .grass .dut {
+                height: 150px;
+                width: 100%;
+                padding-top: 30px;
+            }
+            .to .de {
+                width: 100%;
+                margin-left: -40px;
+            }
+            .to .de .ed {
+                font-size: 3rem;
+            }
+            .to .de .gol1 {
+                margin-top: -80px;
+                margin-left: 0%;
+            }
+            .to .de .wa {
+                padding: 50px 0 0 0px;
+            }
+            .remain {
+                height: 2300px;
+                margin-bottom: 100px;
+            }
+            .remain .ex {
+                font-size: 3rem;
+            }
+            .remain .easy {
+                padding: 0 20px;
+            }
+            .remain .easy .eco {
+                width: 100%;
+                margin-bottom: 20px;
+                background-size: 100% 100%;
+            }
+            .remain .easy .eco .sb {
+                margin: 30px 0 0 340px;
+            }
+            .scroll {
+                height: 1200px;
+                padding: 50px 30px;
+            }
+            .scroll .tal {
+                width: 100%;
+            }
+            .scroll .tal .king {
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+            .scroll .tal .test {
+                margin-top: 20px;
+            }
+            .scroll .tal .test .upp {
+                display: none;
+            }
+            .scroll .ta1 {
+                width: 100%;
+                margin-left: 0px;
+            }
+            .scroll .ta1 .bonnie .nn {
+                padding-left: 20px;
+            }
+            .scroll .ta1 .bonnie .nn .have {
+                font-size: .8rem;
+            }
+            .scroll .ta1 .bonnie .nn .nre {
+                margin-top: 10px;
+            }
+            .scroll .ta1 .bonnie .nn .nre .tbl {
+                font-size: 1rem;
+            }
+            .scroll .ta1 .bonnie .nn1 .dotbo {
+                height: 80px;
+                width: 80px;
+            }
+            .scroll .ta1 .bonnie .nn1 .dotbo img {
+                height: 80%;
+                width: 80%;
+            }
+            .scroll .ta1 .bonnie .nn1 .dotbo .qutes {
+                height: 40px;
+                width: 40px;
+                bottom: -20px;
+                left: 20px;
+            }
+            .scroll .ta1 .bonnie .nn1 .dotbo .qutes img {
+                height: 100%;
+                width: 100%;
+            }
+            .choose {
+                height: 1500px;
+                padding-left: 5px;
+                padding-right: 0px;
+                padding-top: 70px;
+            }
+            .choose .dadu {
+                height: 650px;
+                width: 100%;
+            }
+            .choose .da1 {
+                height: 740px;
+            }
+            .choose .dadu .green {
+                height: 400px;
+            }
+            .choose .dadu .farmerimg {
+                height: 500px;
+            }
+            .choose .dadu .farmerimg .farmer {
+                height: 550px;
+                width: 435px;
+            }
+            .choose .dadu .farmerimg .manus {
+                width: 80%;
+                right: -75px;
+            }
+            .choose .da1 {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .blog .threepart {
+                padding: 0 30px;
+            }
+            .blog .threepart .firstpart {
+                width: 100%;
+            }
+            .blog .threepart .scu {
+                display: none;
+            }
+            .blog .threepart .three {
+                display: none;
+            }
+            .blog .threepart .firstpart .cities a {
+                font-size: 1.7rem;
+            }
+            .complogo {
+                height: 150px;
+            }
+            .complogo .whet {
+                width: 50%;
+            }
+            .complogo .none {
+                display: none;
+            }
+            footer {
+                padding: 100px 20px 50px 20px;
+            }
+            footer .subject {
+                width: 100%;
+                padding-bottom: 30px;
+            }
+            footer .news {
+                width: 100%;
+            }
+            footer .news .exp::after {
+                width: 12.5%;
+            }
+            footer .explore {
+                width: 100%;
+                margin-left: 0px;
+                padding-bottom: 30px;
+            }
+            footer .explore .exp::after {
+                width: 12.5%;
+            }
+            footer .contact {
+                width: 100%;
+                padding-left: 0px;
+            }
+            footer .contact .act::after {
+                width: 12.5%;
+            }
+            .the {
+                padding: 0 20px;
+                justify-content: center;
+            }
+        }
