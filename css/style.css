@@ -9,12 +9,12 @@
 
 header {
     /* height: 185px; */
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 header .border {
     height: 5px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
 }
 
@@ -45,7 +45,7 @@ header .border .orange {
 .subheader {
     /* height: 120px; */
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     padding: 0 70px;
     display: flex;
 }
@@ -53,7 +53,7 @@ header .border .orange {
 .subheader .logo {
     /* height: 120px; */
     width: 17%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     /* padding: 40px 10px; */
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ header .border .orange {
 .subheader .sologo {
     height: 120px;
     width: 83%;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     display: flex;
     padding: 10px 10px 10px 50px;
 }
@@ -127,7 +127,7 @@ header .border .orange {
 .subheader .sologo .ro .ll {
     height: 100px;
     width: 35%;
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
     text-align: center;
     line-height: 100px;
     font-size: 2.1rem;
@@ -143,7 +143,7 @@ header .border .orange {
 .subheader .sologo .ro .text1 {
     height: 100px;
     width: 65%;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-top: 25px;
     line-height: 23px;
 }
@@ -190,7 +190,7 @@ nav {
 nav .ua .up {
     display: inline;
     margin-right: 50px;
-    border: 2px solid;
+    /* border: 2px solid; */
     position: relative;
     padding: 22px 3px;
 }
@@ -243,7 +243,7 @@ nav .ua .up .ub .dw:hover a {
 nav .sy {
     height: 50px;
     width: 10%;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     border-left: 1px solid #E4E2D7;
     display: flex;
     justify-content: space-between;
@@ -402,7 +402,7 @@ nav .sy .sa {
 .sec1 .text .using {
     margin-top: 80px;
     /* height: 250px; */
-    background-color: #C5CE38;
+    /* background-color: #C5CE38; */
     padding: 15px 0;
     display: flex;
     flex-wrap: wrap;
@@ -749,31 +749,30 @@ nav .sy .sa {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: .8rem;
-    margin-top: 30px;
-    margin-left: 139px;
     transition: .6s;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
+    position: absolute;
+    bottom: -70px;
+    right: 27px;
+    /* overflow: hidden; */
+    z-index: -1;
 }
 
-.vie .pro .read::after {
-    content: "";
+
+/* .vie .pro .fra .read .hemy {
     height: 20px;
     width: 20px;
     border-radius: 50%;
     background-color: #1F1E17;
-    position: absolute;
-    top: 5px;
-    left: 20px;
     transform: scale(0);
-    transition: .7s;
-    z-index: -1;
-}
+    transition: .6s;
+    z-index: 1;
+    display: inline;
+} */
 
-.vie .pro .read:hover::after {
+
+/* .vie .pro .fra .read:hover .hemy {
     transform: scale(20);
-}
+} */
 
 .vie .pro .prob:hover .fra {
     background-size: 110% 110%;
@@ -784,7 +783,11 @@ nav .sy .sa {
 }
 
 .vie .pro .prob:hover .read {
-    margin-top: 60px;
+    bottom: -100px;
+}
+
+.vie .pro .read:hover {
+    background-color: red;
 }
 
 
