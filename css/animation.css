@@ -1,19 +1,55 @@
-@keyframes hem {
-    0% {
-        transform: scale(1);
+@keyframes scale {
+    50% {
+        transform: scale(1.1);
+        filter: grayscale();
+        box-shadow: 0 0 20px gray;
     }
     100% {
-        transform: scale(1.5);
-        opacity: .05;
+        transform: scale(1);
     }
 }
 
-@keyframes dev {
-    0% {
-        transform: scale(1);
+@keyframes zigzags {
+    50% {
+        transform: translate(20px, 0);
     }
     100% {
-        transform: scale(2);
-        opacity: .05;
+        transform: translate(0px, 0);
+    }
+}
+
+@keyframes cube {
+    50% {
+        transform: translate(0px, 20px)rotateY(180deg);
+    }
+    100% {
+        transform: translate(0px, 0);
+    }
+}
+
+@keyframes circle {
+    50% {
+        transform: translate(25px, -40px)
+    }
+    100% {
+        transform: translate(0px, 0);
+    }
+}
+
+@keyframes dots {
+    50% {
+        transform: translate(0, -7px)
+    }
+    100% {
+        transform: translate(0px, 0);
+    }
+}
+
+@keyframes plus {
+    50% {
+        transform: translate(0, 35px)
+    }
+    100% {
+        transform: translate(0px, 0);
     }
 }

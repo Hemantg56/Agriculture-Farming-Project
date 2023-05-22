@@ -1,352 +1,453 @@
-        @media (max-width:600px) {
-            header .border {
-                display: none;
-            }
-            .subheader .sologo {
-                display: none;
-                margin: 0 70px;
-            }
-            .subheader {
-                justify-content: center;
-                margin: 0;
-            }
-            .subheader .logo {
-                width: 60%;
-                padding: 15px;
-            }
-            nav {
-                padding: 5px 0;
-            }
-            nav .ua {
-                display: none;
-            }
-            nav .sy {
-                width: 100%;
-                border: transparent;
-            }
-            nav .sy .sa {
-                display: block;
-            }
-            .sec1 {
-                height: 100%;
-                background-size: 350% 600px;
-                background-position: center;
-            }
-            .sec1 .text {
-                margin: 80px 0 0 40px;
-            }
-            .sec1 .text .t1 {
-                font-size: 40px;
-            }
-            .sec1 .text .t1 .t3 {
-                margin-left: -15px;
-                font-size: 40px;
-            }
-            .sec1 .text .t1 .t3 img {
-                top: -13px;
-                left: 10px;
-                height: 50px;
-                width: 50px;
-            }
-            .sec1 .text .p1 {
-                font-size: 13px;
-            }
-            .sec1 .bu {
-                display: block;
-            }
-            .sec1 .text .leaf img {
-                margin-top: 20px;
-            }
-            .sec1 .text .gol {
-                display: none;
-            }
-            .sec1 .text .using .o1 {
-                width: 100%;
-                margin-bottom: 60px;
-            }
-            .sec1 .text .using .o1 .truk {
-                left: 160px;
-            }
-            .sec2 {
-                margin-top: 750px;
-                padding: 0 33px 0 35px;
-                margin-left: 5px;
-                background-size: 100% 100%;
-            }
-            .sec2 .ani {
-                width: 100%;
-                padding-left: 50px;
-            }
-            .sec2 .ani .img1 {
-                height: 360px;
-                width: 360px;
-            }
-            .sec2 .ani .plant {
-                width: 150px;
-                height: 150px;
-                top: 5px;
-                left: 180px;
-            }
-            .sec2 .ani .plant1 {
-                top: 10px;
-                left: -150px;
-            }
-            .sec2 .ani .dana {
-                transform: scale(.7);
-                top: 140px;
-                left: -100px;
-            }
-            .sec2 .our {
-                width: 100%;
-                margin-top: 60px;
-                padding-left: 0px;
-                padding-right: 0px;
-            }
-            .sec2 .our .int {
-                font-size: 1.2rem;
-            }
-            .sec2 .our .tur {
-                font-size: 2rem;
-            }
-            .sec2 .our .lar {
-                font-size: 1.8rem;
-            }
-            .sec2 .our .tar {
-                font-size: 1.05rem;
-                padding-bottom: 10px;
-            }
-            .sec2 .our .veg {
-                margin-bottom: 250px;
-            }
-            .sec2 .our .gro {
-                width: 100%;
-            }
-            .sec2 .our .gro .ap {
-                width: 100%;
-            }
-            .sec2 .our .gro .ap .f3 {
-                padding-top: 20px;
-            }
-            .sec2 .our .gro .ap .f4 {
-                padding-top: 80px;
-            }
-            .sec2 .our .gro .its {
-                width: 100%;
-                padding-right: 200px;
-            }
-            .sec2 .our .gro .v {
-                padding-top: 50px;
-            }
-            .sec2 .our .not {
-                font-size: 1rem;
-            }
-            .sec2 .our .mor {
-                width: 40%;
-            }
-            .vie .pro {
-                padding: 0 30px;
-                margin-top: 0px;
-            }
-            .vie .pro .prob {
-                width: 100%;
-                margin-bottom: 120px;
-            }
-            .vie .pro .prob .fra {
-                height: 400px;
-            }
-            .vie .pro .prob .fra .prod {
-                padding: 60px 100px;
-            }
-            .vie .pro .prob .fra .gadi {
-                left: 170px;
-            }
-            .vie .pro .read {
-                right: 42px;
-            }
-            .to {
-                height: 700px;
-                margin-top: 2350px;
-                background-position: center;
-                background-size: 250% 100%;
-                background-attachment: unset;
-            }
-            .to .grass {
-                background-repeat: no-repeat;
-                top: -70%;
-            }
-            .to .grass .dut {
-                height: 150px;
-                width: 100%;
-                padding-top: 30px;
-            }
-            .to .de {
-                width: 100%;
-                margin-left: -40px;
-            }
-            .to .de .ed {
-                font-size: 3rem;
-            }
-            .to .de .gol1 {
-                margin-top: -80px;
-                margin-left: 0%;
-            }
-            .to .de .wa {
-                padding: 50px 0 0 0px;
-            }
-            .remain {
-                height: 2300px;
-                margin-bottom: 100px;
-            }
-            .remain .ex {
-                font-size: 3rem;
-            }
-            .remain .easy {
-                padding: 0 20px;
-            }
-            .remain .easy .eco {
-                width: 100%;
-                margin-bottom: 20px;
-                background-size: 100% 100%;
-            }
-            .remain .easy .eco .sb {
-                margin: 30px 0 0 340px;
-            }
-            .scroll {
-                height: 1200px;
-                padding: 50px 30px;
-            }
-            .scroll .tal {
-                width: 100%;
-            }
-            .scroll .tal .king {
-                margin-top: 10px;
-                margin-bottom: 30px;
-            }
-            .scroll .tal .test {
-                margin-top: 20px;
-            }
-            .scroll .tal .test .upp {
-                display: none;
-            }
-            .scroll .ta1 {
-                width: 100%;
-                margin-left: 0px;
-            }
-            .scroll .ta1 .bonnie .nn {
-                padding-left: 20px;
-            }
-            .scroll .ta1 .bonnie .nn .have {
-                font-size: .8rem;
-            }
-            .scroll .ta1 .bonnie .nn .nre {
-                margin-top: 10px;
-            }
-            .scroll .ta1 .bonnie .nn .nre .tbl {
-                font-size: 1rem;
-            }
-            .scroll .ta1 .bonnie .nn1 .dotbo {
-                height: 80px;
-                width: 80px;
-            }
-            .scroll .ta1 .bonnie .nn1 .dotbo img {
-                height: 80%;
-                width: 80%;
-            }
-            .scroll .ta1 .bonnie .nn1 .dotbo .qutes {
-                height: 40px;
-                width: 40px;
-                bottom: -20px;
-                left: 20px;
-            }
-            .scroll .ta1 .bonnie .nn1 .dotbo .qutes img {
-                height: 100%;
-                width: 100%;
-            }
-            .choose {
-                height: 1500px;
-                padding-left: 5px;
-                padding-right: 0px;
-                padding-top: 70px;
-            }
-            .choose .dadu {
-                height: 650px;
-                width: 100%;
-            }
-            .choose .da1 {
-                height: 740px;
-            }
-            .choose .dadu .green {
-                height: 400px;
-            }
-            .choose .dadu .farmerimg {
-                height: 500px;
-            }
-            .choose .dadu .farmerimg .farmer {
-                height: 550px;
-                width: 435px;
-            }
-            .choose .dadu .farmerimg .manus {
-                width: 80%;
-                right: -75px;
-            }
-            .choose .da1 {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            .blog .threepart {
-                padding: 0 30px;
-            }
-            .blog .threepart .firstpart {
-                width: 100%;
-            }
-            .blog .threepart .scu {
-                display: none;
-            }
-            .blog .threepart .three {
-                display: none;
-            }
-            .blog .threepart .firstpart .cities a {
-                font-size: 1.7rem;
-            }
-            .complogo {
-                height: 150px;
-            }
-            .complogo .whet {
-                width: 50%;
-            }
-            .complogo .none {
-                display: none;
-            }
-            footer {
-                padding: 100px 20px 50px 20px;
-            }
-            footer .subject {
-                width: 100%;
-                padding-bottom: 30px;
-            }
-            footer .news {
-                width: 100%;
-            }
-            footer .news .exp::after {
-                width: 12.5%;
-            }
-            footer .explore {
-                width: 100%;
-                margin-left: 0px;
-                padding-bottom: 30px;
-            }
-            footer .explore .exp::after {
-                width: 12.5%;
-            }
-            footer .contact {
-                width: 100%;
-                padding-left: 0px;
-            }
-            footer .contact .act::after {
-                width: 12.5%;
-            }
-            .the {
-                padding: 0 20px;
-                justify-content: center;
-            }
-        }
+@media (max-width:992px) {
+    .main {
+        height: 680px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 3rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .header .hub .down {
+        margin: 0 20px 0 0px;
+    }
+    .main .contact {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 500px;
+    }
+    .contact .my_contact .name_box {
+        color: #000;
+        width: 100%;
+    }
+    .my_contact .name_box .name {
+        font-size: 1.7rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 2.2rem;
+        margin: 25px 0 30px 0;
+    }
+    .my_contact .name_box .definesion {
+        font-size: 14px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 40px;
+    }
+    .contact .my_pic .photo_div {
+        margin: 25px 0 0 40px;
+    }
+    .my_pic .ani_zigzags {
+        top: 12%;
+        left: 9%;
+    }
+    .my_pic .ani_cube {
+        top: 1%;
+        right: 11%;
+    }
+    .my_pic .ani_circle {
+        bottom: 5%;
+        left: 8.5%;
+    }
+    .my_pic .ani_dots {
+        bottom: 4%;
+        right: 5%;
+    }
+    .my_pic .ani_plus {
+        top: 3%;
+        right: 35%;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2.7rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .project_farming .project_requid {
+        margin-top: 60px;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 350px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.8);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(0.9);
+    }
+    .project_requid .skill_icon {
+        height: 50px;
+    }
+    .project_requid .skill_icon img {
+        width: 50px;
+    }
+    .project_requid .project_name {
+        font-size: 2.5rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2.7rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 4.5fr 5.5fr;
+        grid-template-rows: 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 5%;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 90%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media (max-width:768px) {
+    .main {
+        height: 730px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 2.6rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .header .hub .down {
+        margin: 0 20px 0 0px;
+    }
+    .contact .my_pic {
+        display: none;
+    }
+    .main .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 550px;
+    }
+    .contact .my_contact {
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Img/my-pic/IMG_20220621_180107_498.jpg);
+        background-size: cover;
+        /* background-position: center; */
+        padding-left: 5px;
+    }
+    .contact .my_contact .name_box {
+        margin-top: 190px;
+    }
+    .my_contact .name_box .name {
+        color: #fff;
+        font-size: 2rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 2.5rem;
+        color: #fff;
+        margin: 15px 0 20px 0;
+    }
+    .my_contact .name_box .definesion {
+        color: #fff;
+        font-size: 14px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 20px;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2.7rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .project_farming .project_requid {
+        margin-top: 60px;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 350px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.8);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(0.9);
+    }
+    .project_requid .skill_icon {
+        height: 50px;
+    }
+    .project_requid .skill_icon img {
+        width: 50px;
+    }
+    .project_requid .project_name {
+        font-size: 2.5rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2.7rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 1fr;
+        grid-template-rows: 370px 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 20%;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px auto;
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+
+@media (max-width:600px) {
+    .main {
+        height: 720px;
+        padding: 0 20px;
+    }
+    .main::after {
+        font-size: 2.4rem;
+        bottom: -12px;
+        left: 21px;
+    }
+    .main .header .logo {
+        width: 100%;
+    }
+    .main .header .nav {
+        display: none;
+    }
+    .contact .my_pic {
+        display: none;
+    }
+    .main .contact {
+        grid-template-columns: 1fr;
+        grid-template-rows: 520px;
+    }
+    .contact .my_contact {
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../Img/my-pic/IMG_20220621_180107_498.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 5px;
+    }
+    .contact .my_contact .name_box {
+        margin-top: 160px;
+    }
+    .my_contact .name_box .name {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .my_contact .name_box .animation_lebal {
+        font-size: 1.8rem;
+        color: #fff;
+        margin: 15px 0 20px 0;
+    }
+    .my_contact .name_box .definesion {
+        color: #fff;
+        font-size: 10px;
+    }
+    .my_contact .name_box .hire {
+        margin-top: 20px;
+    }
+    .project_tag {
+        padding: 50px 20px;
+    }
+    .project_tag .project_heading {
+        font-size: 2rem;
+    }
+    .project_tag .project_farming {
+        width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_tag .p2 {
+        background-size: 100% 100%;
+    }
+    .project_tag .project_farming::after {
+        height: 300px;
+    }
+    .project_tag .project_farming::before {
+        font-size: 3rem;
+        top: -0px;
+        right: -0px;
+    }
+    .project_tag .p2::before {
+        top: 0px;
+        left: 0px;
+    }
+    .project_tag .project_farming:hover::before {
+        display: none;
+    }
+    .project_farming .project_requid {
+        transform: scale(0.6);
+    }
+    .project_farming:hover .project_requid {
+        transform: scale(.7);
+    }
+    .project_requid .skill_icon {
+        height: 30px;
+    }
+    .project_requid .skill_icon img {
+        width: 30px;
+    }
+    .project_requid .project_name {
+        font-size: 2rem;
+    }
+    .skill_tag .skill_heading {
+        font-size: 2rem;
+    }
+    .skill_tag .skills {
+        width: 100%;
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 220px 220px 220px 220px 220px;
+    }
+    .contact_tag {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 600px;
+    }
+    .contact_tag .contact_add {
+        padding: 80px 0 0 20px;
+    }
+    .contact_add .me {
+        width: 90%;
+    }
+    .contact_input .inp_name {
+        width: 100%;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px auto;
+    }
+    .footer .d {
+        padding: 30px 20px 20px 20px;
+    }
+    .footer .social {
+        text-align: center;
+    }
+    .footer a .resume {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer .info {
+        font-size: .7rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .footer .social .social_i {
+        margin: 1px auto;
+    }
+    .footer .social .follow {
+        margin-top: 10px;
+    }
+}
