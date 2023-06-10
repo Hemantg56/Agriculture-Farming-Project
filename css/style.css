@@ -19,7 +19,7 @@
     font-family: arial, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     position: absolute;
-    bottom: -17px;
+    bottom: -30px;
     left: 70px;
 }
 
@@ -27,11 +27,12 @@
     /* height: 100px; */
     /* background: lightcoral; */
     display: flex;
+    justify-content: space-between;
 }
 
 .main .header .logo {
     height: 100px;
-    width: 50%;
+    width: 40%;
     padding-top: 5px;
     /* border: 1px solid; */
     display: flex;
@@ -46,9 +47,9 @@
 
 .main .header .nav {
     height: 100px;
-    width: 50%;
+    width: 40%;
     text-align: right;
-    line-height: 120px;
+    line-height: 100px;
     /* border: 1px solid; */
 }
 
@@ -70,7 +71,7 @@
 }
 
 .main .contact {
-    height: 500px;
+    /* height: 500px; */
     /* background: lightgreen; */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -234,6 +235,13 @@
     margin-top: 100px;
 }
 
+.project_tag .p3 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../Img/project/mbr.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
 .project_tag .project_farming::after {
     content: "";
     height: 550px;
@@ -265,6 +273,12 @@
 
 .project_tag .p2::before {
     content: "02";
+    top: -45px;
+    right: -65px;
+}
+
+.project_tag .p3::before {
+    content: "03";
     top: -45px;
     right: -65px;
 }
